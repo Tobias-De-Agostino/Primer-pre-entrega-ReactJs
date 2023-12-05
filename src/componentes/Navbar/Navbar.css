@@ -1,7 +1,7 @@
 img {
     max-width: 100%; }
 .container {
-    max-width: 1200px;
+    max-width: 100vh;
     margin: 0 auto; }
 /* .header {
     display: flex;
@@ -18,7 +18,7 @@ img {
     left: 0;
     right: 0;
     display: flex;
-    flex-direction: none;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: none; }
@@ -55,7 +55,7 @@ img {
     .menu label:hover {
     color: #cfcfcf; }
 
-.navbar2 {
+.cart-widget {
     display: flex;
     flex-direction: none;
     justify-content: space-between;
@@ -63,7 +63,11 @@ img {
     gap: 50px; }
 
 .submenu {
-    position: relative; }
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
     .submenu:hover #carrito {
     display: block;
     position: absolute;
@@ -126,25 +130,27 @@ img {
 
 .header-content {
     display: flex;
-    flex-direction: none;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: none;
     flex: 1;
-    padding: 0 200px; }
+    padding: 50px 200px; }
 
 .header-txt {
     flex-basis: 100%;
     text-align: center; }
     .header-txt h1 {
-    font-size: 90px;
+    font-size: 50px;
     font-family: Akira;
     font-weight: 800;
     text-transform: uppercase;
     line-height: 1;
     color: #111111;
     font-family: Akira;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
     .header-txt p {
     font-size: 20px;
     text-transform: uppercase;

@@ -1,13 +1,14 @@
 import './App.css'
 import Navbar from './componentes/Navbar/Navbar'
-import Catalogo from './componentes/Catalogo/Catalogo'
+import ItemListContainer from './componentes/ItemListContainer/ItemListContainer'
 
 function App() {
+  const greetingMessage = "¡Bienvenidoa mi tienda!";
 
   return (
     <>
       <Navbar/>
-      <Catalogo/>
+      <ItemListContainer greeting={greetingMessage}/>
     </>
   )
 }
