@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Boton from "../ejemplos/Boton";
+import Boton from "../ejemplos/renderprops/Boton";
 
 const ItemCard = ({item}) => {
 

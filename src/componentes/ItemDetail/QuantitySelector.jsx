@@ -1,4 +1,4 @@
-import Boton from "../ejemplos/Boton";
+import Boton from "../ejemplos/renderprops/Boton";
 
 const QuantitySelector = ({ cantidad, stock, setCantidad }) => {
 const handleSumar = () => {
