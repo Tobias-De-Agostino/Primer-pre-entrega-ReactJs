@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "name": "Campera nike rompeviento",
+        "img": "../../public/Images/Campera-nike.jpeg",
+        "": "indumentaria",
+        "price": 27800
+    },
+    {
+        "id":2,
+        "name": "Remera adidas negra",
+        "img": "../../public/Images/Remera-adidas.jpg",
+        "category":"indumentaria",
+        "price": 16799
+    },
+    {
+        "id":3,
+        "name": "Zapatillas air force 1 nike",
+        "img": "../../public/Images/nike-air-force.jpg",
+        "category":"calzado",
+        "price": 54900
+    },
+    {
+        "id":4,
+        "name": "Zapatillas adidas superstar",
+        "img": "../../public/Images/adidas-superstar-blanca.jpg",
+        "category":"calzado",
+        "price": 24999
+    },
+    {
+        "id":5,
+        "name": "Campera de abrigo adidas",
+        "img": "../../public/Images/campera-adidas-mujer-rosa-1.jpg",
+        "category":"indumentaria",
+        "price": 24500
+    },
+    {
+        "id":6,
+        "name": "Botines nike mercurial",
+        "img": "../../public/Images/botines-mercurial.jpg",
+        "category":"calzado",
+        "price": 37599
+    },
+    {
+        "id":7,
+        "name": "Remera Puma",
+        "img": "../../public/Images/remera-puma.jpg",
+        "category":"indumentaria",
+        "price":19599 
+    },
+    {
+        "id":8,
+        "name": "Botines predator adidas",
+        "img": "../../public/Images/botines-adidas.jpg",
+        "category":"calzado",
+        "price": 31899
+    }
+]

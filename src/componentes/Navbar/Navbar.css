@@ -28,17 +28,16 @@ img {
     color: black;
     text-transform: uppercase;
     font-weight: 800; }
-.menu .navbar ul li {
+.menu .navbar{
     position: relative;
-    float: left; }
-    .menu .navbar ul li a {
-    font-size: 20px;
-    padding: 25px;
-    color: #111111;
-    display: block;
-    font-family: Code;
-    transition: 0.4s; }
-.menu .navbar ul li a:hover {
+    float: left;}
+    a{
+        font-size: 20px;
+        padding: 25px;
+        color: #111111;
+        font-family: Code;
+        transition: 0.4s; }
+.menu .navbar a:hover {
         color: #cfcfcf; }
 
 #menu {

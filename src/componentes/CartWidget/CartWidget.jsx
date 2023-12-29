@@ -1,4 +1,4 @@
-import '../Navbar/Navbar.css'
+import '../Navbar/Navbar.css';
 
 const CartWidget = () => {
     const cartItemCount = 3; // Número hardcodeado (fijo)
