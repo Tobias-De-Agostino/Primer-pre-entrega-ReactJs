@@ -3,56 +3,64 @@
         "id":1,
         "name": "Campera nike rompeviento",
         "img": "../../public/Images/Campera-nike.jpeg",
-        "": "indumentaria",
-        "price": 27800
+        "category": "Destacado",
+        "price": 27800,
+        "stock": 4
     },
     {
         "id":2,
         "name": "Remera adidas negra",
         "img": "../../public/Images/Remera-adidas.jpg",
-        "category":"indumentaria",
-        "price": 16799
+        "category":"Destacado",
+        "price": 16799,
+        "stock": 5
     },
     {
         "id":3,
         "name": "Zapatillas air force 1 nike",
         "img": "../../public/Images/nike-air-force.jpg",
-        "category":"calzado",
-        "price": 54900
+        "category":"Destacado",
+        "price": 54900,
+        "stock": 3
     },
     {
         "id":4,
         "name": "Zapatillas adidas superstar",
         "img": "../../public/Images/adidas-superstar-blanca.jpg",
-        "category":"calzado",
-        "price": 24999
+        "category":"Hombre",
+        "price": 24999, 
+        "stock": 6
     },
     {
         "id":5,
         "name": "Campera de abrigo adidas",
         "img": "../../public/Images/campera-adidas-mujer-rosa-1.jpg",
-        "category":"indumentaria",
-        "price": 24500
+        "category":"Mujer",
+        "price": 24500,
+        "stock": 2
     },
     {
         "id":6,
         "name": "Botines nike mercurial",
         "img": "../../public/Images/botines-mercurial.jpg",
-        "category":"calzado",
-        "price": 37599
+        "category":"Hombre",
+        "price": 37599,
+        "stock": 0
     },
     {
         "id":7,
         "name": "Remera Puma",
         "img": "../../public/Images/remera-puma.jpg",
-        "category":"indumentaria",
-        "price":19599 
+        "category":"Hombre",
+        "price":19599,
+        "stock": 4
     },
     {
         "id":8,
         "name": "Botines predator adidas",
         "img": "../../public/Images/botines-adidas.jpg",
-        "category":"calzado",
-        "price": 31899
+        "category":"Mujer",
+        "price": 31899,
+        "stock": 7
     }
 ]

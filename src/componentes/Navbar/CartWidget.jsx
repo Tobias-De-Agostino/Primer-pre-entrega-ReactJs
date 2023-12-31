@@ -1,7 +1,11 @@
-import '../Navbar/Navbar.css';
+// import { Link } from 'react-router-dom'
+// import cartIcon from '../../assets/trash.svg'
+import { useContext } from 'react'
+import { CartContext } from '../context/CartContext'
 
 const CartWidget = () => {
-    const cartItemCount = 3; // Número hardcodeado (fijo)
+    const { itemsInCart } = useContext(CartContext)
+
     return (
         <div className="cart-widget">
             <ul>
@@ -12,7 +16,7 @@ const CartWidget = () => {
             <ul>
                 <li className="submenu">
                     <img src="./Images/car.svg" id="img-carrito" alt="carrito"/>
-                    <span className="item-count">{cartItemCount}</span>
+                    <span className="item-count">{itemsInCart}</span>
                     <div id="carrito">
                         <table id="lista-carrito">
                             <thead>

@@ -6,7 +6,7 @@ import Navbar from "./componentes/Navbar/Navbar";
 import { CartProvider } from "./componentes/context/CartContext";
 import { UserProvider } from "./componentes/context/UserContext";
 import { Contador } from "./componentes/ejemplos/renderprops/Clicker";
-import Prendas from "./componentes/ejemplos/renderprops/Prendas";
+// import Prendas from "./componentes/ejemplos/renderprops/Prendas";
 // import Posts from "./ejemplos/Posts";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
@@ -28,7 +28,7 @@ function App() {
             <Route path="/item/:itemId" element={<ItemDetailContainer />} />
             <Route path="/cart" element={<CartView />} />
 
-            <Route path="/prendas" element={<Prendas />} />
+            {/* <Route path="/prendas" element={<Prendas />} /> */}
             {/* <Route path="/posts" element={<Posts />} /> */}
 
             <Route path="/not-found" element={<h2>Not found</h2>} />

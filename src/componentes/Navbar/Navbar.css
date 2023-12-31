@@ -3,15 +3,15 @@ img {
 .container {
     max-width: 100vh;
     margin: 0 auto; }
-/* .header {
+.header {
     display: flex;
     flex-direction: none;
     justify-content: none;
     align-items: center;
     gap: none;
-    min-height: 80vh;
+    min-height: 15vh;
     background-color: #D6FF38; 
-    padding: 70px 0; }  */
+    padding: 70px 0; }  
 .menu {
     position: absolute;
     top: 0;
@@ -56,10 +56,11 @@ img {
 
 .cart-widget {
     display: flex;
-    flex-direction: none;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: right;
     align-items: center;
-    gap: 50px; }
+    gap: 20px; 
+}
 
 .submenu {
     position: relative;
