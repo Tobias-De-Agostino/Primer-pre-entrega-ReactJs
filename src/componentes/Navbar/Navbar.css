@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'MiFuente';
+    src:
+        url('../Fonts/BebasNeue-Regular.otf') format('otf'),
+        url('../Fonts/Akira\ Expanded\ Demo.otf') format('otf'),
+        url('../Fonts/CodeSaver-Regular.otf') format('otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;} 
 img {
     max-width: 100%; }
 .container {
@@ -9,7 +23,7 @@ img {
     justify-content: none;
     align-items: center;
     gap: none;
-    min-height: 15vh;
+    min-height: 80vh;
     background-color: #D6FF38; 
     padding: 70px 0; }  
 .menu {
@@ -29,14 +43,19 @@ img {
     text-transform: uppercase;
     font-weight: 800; }
 .menu .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
-    float: left;}
-    a{
-        font-size: 20px;
-        padding: 25px;
-        color: #111111;
-        font-family: Code;
-        transition: 0.4s; }
+    float: left;
+    font-size: 20px;
+    padding: 25px;
+    color: #111111;
+    font-family: Code;
+    gap: 55px;
+    transition: 0.4s; }
+
 .menu .navbar a:hover {
         color: #cfcfcf; }
 

@@ -48,6 +48,12 @@ const Navbar = () => {
                     <CartWidget/>
                 </nav>
             </div>
+            <div class="header-content container">
+                <div class="header-txt">
+                    <h1>de todo un poco</h1>
+                    <p>Indumentaria para todos</p>
+                </div>
+            </div>
         </header>
     );
 };

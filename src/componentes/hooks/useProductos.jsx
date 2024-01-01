@@ -9,7 +9,7 @@ const useProductos = () => {
     useEffect(() => {
         setLoading(true)
 
-        pedirDatos() // <= Promise
+        pedirDatos()
             .then((data) => {
                 setProductos( data )
                 setLoading( false )

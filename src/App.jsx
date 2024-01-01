@@ -28,9 +28,6 @@ function App() {
             <Route path="/item/:itemId" element={<ItemDetailContainer />} />
             <Route path="/cart" element={<CartView />} />
 
-            {/* <Route path="/prendas" element={<Prendas />} /> */}
-            {/* <Route path="/posts" element={<Posts />} /> */}
-
             <Route path="/not-found" element={<h2>Not found</h2>} />
             <Route path="*" element={<Navigate to={"/not-found"} />} />
           </Routes>

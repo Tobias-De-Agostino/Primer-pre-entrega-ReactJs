@@ -1,3 +1,4 @@
+import "./ItemCard.css";
 import { Link } from "react-router-dom";
 import Boton from "../ejemplos/renderprops/Boton";
 
@@ -13,7 +14,7 @@ return (
 
     <p className="text-xl font-bold">Precio: ${item.price}</p>
 
-    <Boton>
+    <Boton className="btn-2">
         <Link to={`/item/${item.id}`}>Ver más</Link>
     </Boton>
     </article>
